@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alttab Studio - Desenvolvimento profissional de jogos com Godot Engine">
+    <meta name="keywords" content="game dev, jogos, Godot, desenvolvimento, Alttab">
+    <title>Alttab Studio | Game Development</title>
+    <link rel="icon" type="image/png" href="images/A_game_dev_sem_fundo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/A_game_dev_sem_fundo16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/A_game_dev_sem_fundo32x32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="images/A_game_dev_sem_fundo64x64.png">
+    <link rel="apple-touch-icon" href="images/A_game_dev_sem_fundo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="images/Gamedev_semfundo.png" alt="Alttab Studio Logo" class="logo-img">
+            </div>
+            <ul class="nav__menu" id="navMenu">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                <li class="nav__item"><a href="#tech" class="nav__link">Tecnologia</a></li>
+                <li class="nav__item"><a href="#ecosystem" class="nav__link">Projetos</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+            </ul>
+            <div class="nav__toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <div class="hero__logo">
+                    <img src="images/A_game_dev_sem_fundo.png" alt="Alttab Studio" class="hero__logo-img">
+                </div>
+                <h1 class="hero__title">
+                    <span class="hero__title-main">ALTTAB</span>
+                    <span class="hero__title-sub">STUDIO</span>
+                </h1>
+                <p class="hero__description">
+                    Desenvolvimento profissional de jogos digitais
+                </p>
+                <div class="hero__cta">
+                    <a href="#contact" class="btn btn-primary">Entre em Contato</a>
+                    <a href="#about" class="btn btn-secondary">Conheça Mais</a>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="geometric-shape shape-1"></div>
+                <div class="geometric-shape shape-2"></div>
+                <div class="geometric-shape shape-3"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Sobre o Studio</h2>
+                <div class="section__line"></div>
+            </div>
+            <div class="about__content">
+                <div class="about__text">
+                    <p class="about__paragraph">
+                        O <strong>Alttab Studio</strong> é a divisão de desenvolvimento de jogos da Alttabcorp, 
+                        focada na criação de experiências digitais profissionais e inovadoras.
+                    </p>
+                    <p class="about__paragraph">
+                        Com uma equipe experiente e apaixonada por jogos, combinamos criatividade 
+                        técnica com visão estratégica para desenvolver projetos que se destacam no mercado.
+                    </p>
+                    <p class="about__paragraph">
+                        Nossa abordagem profissional e metodologia refinada garantem entregas de alta 
+                        qualidade, desde conceito até o produto final.
+                    </p>
+                </div>
+                <div class="about__features">
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Experiência</h3>
+                        <p class="feature-card__text">Time com anos de experiência em desenvolvimento de jogos</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Profissionalismo</h3>
+                        <p class="feature-card__text">Processos robustos e entregas pontuais</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Inovação</h3>
+                        <p class="feature-card__text">Soluções criativas e tecnologia de ponta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech" id="tech">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Nossa Tecnologia</h2>
+                <div class="section__line"></div>
+            </div>
+            <div class="tech__content">
+                <div class="tech__showcase">
+                    <div class="tech__logo">
+                        <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="godotGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#478CBF;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#5FBCE4;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#godotGradient)" d="M128 95.402c-17.864 0-32.348 14.483-32.348 32.347 0 17.864 14.484 32.348 32.348 32.348 17.864 0 32.347-14.484 32.347-32.348 0-17.864-14.483-32.347-32.347-32.347zm-70.697 0c-17.864 0-32.348 14.483-32.348 32.347 0 17.864 14.484 32.348 32.348 32.348 17.864 0 32.347-14.484 32.347-32.348 0-17.864-14.483-32.347-32.347-32.347zm141.394 0c-17.864 0-32.347 14.483-32.347 32.347 0 17.864 14.483 32.348 32.347 32.348 17.864 0 32.348-14.484 32.348-32.348 0-17.864-14.484-32.347-32.348-32.347zM127.75 0C57.23 0 0 57.23 0 127.75S57.23 255.5 127.75 255.5 255.5 198.27 255.5 127.75 198.27 0 127.75 0zm.25 193.848c-36.466 0-66.098-29.632-66.098-66.098 0-36.467 29.632-66.098 66.098-66.098 36.467 0 66.098 29.631 66.098 66.098 0 36.466-29.631 66.098-66.098 66.098z"/>
+                        </svg>
+                    </div>
+                    <h3 class="tech__name">GODOT ENGINE</h3>
+                    <p class="tech__description">
+                        Utilizamos o Godot Engine, uma das engines mais poderosas e versáteis do mercado, 
+                        open-source e com capacidade profissional para desenvolvimento 2D e 3D.
+                    </p>
+                    <a href="https://godotengine.org" target="_blank" rel="noopener" class="tech__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                        <span>godotengine.org</span>
+                    </a>
+                </div>
+                <div class="tech__benefits">
+                    <div class="benefit-item">
+                        <span class="benefit-item__number">01</span>
+                        <div class="benefit-item__content">
+                            <h4>Performance Otimizada</h4>
+                            <p>Engine leve e eficiente para jogos de alta performance</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-item__number">02</span>
+                        <div class="benefit-item__content">
+                            <h4>Multi-plataforma</h4>
+                            <p>Deploy para PC, Console, Mobile e Web</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-item__number">03</span>
+                        <div class="benefit-item__content">
+                            <h4>Workflow Profissional</h4>
+                            <p>Ferramentas avançadas para desenvolvimento ágil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ecosystem Section -->
+    <section class="ecosystem" id="ecosystem">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Nossos Projetos</h2>
+                <div class="section__line"></div>
+            </div>
+            
+            <!-- Main Projects -->
+            <div class="projects__grid">
+                <a href="https://alttabcorp.github.io/Alttab-Esports-/" target="_blank" rel="noopener" class="project-card project-card--featured">
+                    <div class="project-card__banner">
+                        <img src="images/logoTIme-Semfundo.png" alt="Alttab Esports Logo" class="project-card__logo">
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">Alttab Esports</h3>
+                            <svg class="project-card__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                            </svg>
+                        </div>
+                        <p class="project-card__description">
+                            Time profissional de jogos competitivos online com presença consolidada no cenário nacional
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="project-tag">Esports</span>
+                            <span class="project-tag">Competitivo</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/Alttabcorp/bodescorp_stream" target="_blank" rel="noopener" class="project-card project-card--featured">
+                    <div class="project-card__banner">
+                        <img src="images/Ornn_bodescorp.png" alt="Bodescorp Stream" class="project-card__logo">
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">Bodescorp Stream</h3>
+                            <svg class="project-card__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                            </svg>
+                        </div>
+                        <p class="project-card__description">
+                            Streamer oficial focado em conteúdo digital de qualidade e entretenimento gaming
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="project-tag">Streaming</span>
+                            <span class="project-tag">Conteúdo</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Institutional Support -->
+            <div class="institutional-support">
+                <div class="institutional-support__header">
+                    <h3 class="institutional-support__title">Apoio Institucional</h3>
+                </div>
+                <a href="https://www.alttabcorp.com.br" target="_blank" rel="noopener" class="institutional-card">
+                    <img src="images/AlttabLogo_sem fundo.png" alt="Alttabcorp Logo" class="institutional-card__logo">
+                    <div class="institutional-card__info">
+                        <h4 class="institutional-card__name">Alttabcorp</h4>
+                        <p class="institutional-card__description">Grupo empresarial oferecendo soluções tecnológicas completas</p>
+                    </div>
+                    <svg class="institutional-card__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Entre em Contato</h2>
+                <div class="section__line"></div>
+            </div>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <p class="contact__text">
+                        Pronto para transformar sua ideia em realidade? Entre em contato com nossa equipe 
+                        para discutir seu próximo projeto.
+                    </p>
+                    <div class="contact__links">
+                        <a href="https://www.alttabcorp.com.br" target="_blank" rel="noopener" class="contact__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                            <span>www.alttabcorp.com.br</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="images/Gamedev_semfundo.png" alt="Alttab Studio" class="footer__logo">
+                    <p class="footer__text">Desenvolvimento profissional de jogos</p>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Links Rápidos</h4>
+                    <ul class="footer__list">
+                        <li><a href="#about" class="footer__link">Sobre</a></li>
+                        <li><a href="#tech" class="footer__link">Tecnologia</a></li>
+                        <li><a href="#ecosystem" class="footer__link">Projetos</a></li>
+                        <li><a href="#contact" class="footer__link">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h4 class="footer__heading">Nossos Projetos</h4>
+                    <ul class="footer__list">
+                        <li><a href="https://alttabcorp.github.io/Alttab-Esports-/" target="_blank" class="footer__link">Alttab Esports</a></li>
+                        <li><a href="https://github.com/Alttabcorp/bodescorp_stream" target="_blank" class="footer__link">Bodescorp Stream</a></li>
+                        <li><a href="https://www.alttabcorp.com.br" target="_blank" class="footer__link">Alttabcorp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Alttab Studio. Uma vertente da <a href="https://www.alttabcorp.com.br" target="_blank" rel="noopener">Alttabcorp</a>. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
